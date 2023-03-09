@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fe9c32d-ee2e-43e3-9dff-6b7a5c25c7ac">
+  <producedTypes>
+    <objectType typeId="0d40f6ac-88ba-486e-8aa7-cc84c32cf447" valueTypeId="232cc072-5971-40b4-8613-0aa14151bdb9"/>
+    <managerType typeId="19704e38-d756-4608-b7bb-e3ab59d59a87" valueTypeId="80934e87-fe0f-4aea-b153-1b2c0111e14e"/>
+  </producedTypes>
+  <name>Пример_ОтчетСКД_ВнешнийИсточник_БММ_РеестрПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Пример_ОтчетСКД_ВнешнийИсточник_БММ_РеестрПлатежей.Template.МакетСКД</mainDataCompositionSchema>
+  <templates uuid="39f207c3-8233-479b-a9d0-8d0537476e79">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="e903b23e-478b-4efb-9ea1-abb994221697">
+    <name>МакетСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет СКД</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

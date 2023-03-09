@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c974142-21b8-457e-aad5-35a7a711c949">
+  <name>ББР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Библиотека &quot;быстрой&quot; разработки (2021-04-22)</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="28d885d7-fd7f-4f2a-9b09-c2b17db434eb"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e2843655-d58c-4ab9-9aa8-d4374a99b2bd"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bd84dab1-37f1-48a4-adee-5dca6305aed6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="f7bbac3f-5686-4bde-b1dc-85db617445e5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5a5d901e-971f-4be1-bf24-4202cd722171"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="98442bf2-b6b2-4396-9623-47744483909a"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="90e619c9-e572-42be-a110-121dbe605b25"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>(С) 2017-2023 Чернуль Александр</vendor>
+  <version>0.0.2.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>(С) 2017-2020 Чернуль Александр</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="56eff2fb-eacc-4768-a764-c5f4794e601a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ЗагрузкаДанныхУниверсальныйФорматExcel</subsystems>
+  <subsystems>Subsystem.БиблиотекаВспомогательныхФункций</subsystems>
+  <subsystems>Subsystem.УниверсальныеОбработки</subsystems>
+  <commonModules>CommonModule.ББР_МатематическиеКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_СтроковыеКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_Коллекции</commonModules>
+  <commonModules>CommonModule.ББР_РаботаСТипами</commonModules>
+  <commonModules>CommonModule.ББР_ПарсингКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_КоллекцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_Распределение</commonModules>
+  <commonModules>CommonModule.ББР_ИнтеграцияСТиповымиРешениямиПереопределяемый</commonModules>
+  <commonModules>CommonModule.ББР_ПолучениеДанных</commonModules>
+  <commonModules>CommonModule.ББР_СКД</commonModules>
+  <commonModules>CommonModule.ББР_ДатаВремяИнтервалыКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_ПреобразованиеДанных</commonModules>
+  <commonModules>CommonModule.ББР_АДОКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_ФайловыеКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_ТабличныеДокументыКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_СовместимостьСоСтарымиПлатформамиГлобальный</commonModules>
+  <commonModules>CommonModule.ББР_РаботаСМетаданными</commonModules>
+  <commonModules>CommonModule.ББР_ВнешнееСоединениеCOMКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_СетевыеСервисыПротоколыКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_ДесериализацияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_Десериализация</commonModules>
+  <commonModules>CommonModule.ББР_Сериализация</commonModules>
+  <commonModules>CommonModule.ББР_СериализацияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ББР_СетевыеСервисыПротоколы</commonModules>
+  <reports>Report.Пример_ЗаполнениеТЧНаОсновеСКД_МонАрх_ФормированиеПретензийАренда</reports>
+  <reports>Report.Пример_ОтчетСКД_ВнешнийИсточник_БММ_РеестрПлатежей</reports>
+  <dataProcessors>DataProcessor.ис_ГенерацияШаблоновЗагрузки</dataProcessors>
+  <dataProcessors>DataProcessor.ис_ЗагрузкаДанных</dataProcessors>
+  <dataProcessors>DataProcessor.РазбитьНаФункции</dataProcessors>
+</mdclass:Configuration>

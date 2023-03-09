@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31a28554-43b6-477e-b0b3-e1cf517bf7a8">
+  <producedTypes>
+    <objectType typeId="70691728-e655-4993-8264-aad4ded7b76a" valueTypeId="894a88a7-7d6c-467a-ad45-3de9c4dc5073"/>
+    <managerType typeId="5948bee6-5fc5-403e-9598-087a07ae183b" valueTypeId="40b28c3f-a481-4b5a-8833-ef3fa2c40bd5"/>
+  </producedTypes>
+  <name>ис_ЗагрузкаДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ис_ЗагрузкаДанных.Form.Форма</defaultForm>
+  <attributes uuid="a385428a-b7c2-4920-8614-7c8cdfe47893">
+    <name>Источник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fc7a0502-2238-4fb9-a52e-74b678821d38">
+    <name>СоздаватьНовыеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создавать новые объекты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="410e7c75-10fe-44e8-8de5-fd6badbcf2f1">
+    <name>ИзменятьСуществующиеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменять существующие объекты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c15a20d-a97f-4203-9b55-715a4d462467">
+    <name>ЗаписыватьНаборыЗаписейСЗамещением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записывать наборы записей с замещением</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f0b5e286-d946-4f63-a4f3-75b2d1b64350">
+    <name>НеОчищатьСодержимоеТабличныхЧастей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не очищать содержимое табличных частей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65cca86f-9239-43b5-93fd-99b8cce201c1">
+    <name>РазрешитьСозданиеБитыхСсылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить создание битых ссылок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7305002b-8408-4d8e-91c7-a23c059cc593">
+    <name>НеОстанавливатьЗагрузкуПоОшибке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не останавливать загрузку по ошибке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5edf9dff-1fea-424e-b01b-6ec2cd7196b6">
+    <name>ИспользоватьТранзакцию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать транзакцию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="694aa7c8-d459-4e11-a8ca-d6cbff11b783">
+    <name>РазрешитьНеоднозначныеСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить неоднозначные ссылки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="474e72e7-c954-478a-9bb0-01fc98622b13">
+    <name>ЗаписыватьДанныеВРежимеЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записывать данные в режиме загрузки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="00f8653f-ca8b-4e67-9ffd-13a03c053a2e">
+    <name>РежимТестированияФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим тестирования файла</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="12c089a9-85c4-4d58-ba49-764276edc1a5">
+    <name>НеОчищатьТЧПриЗагрузкеОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не очищать загружаемые таб. части при загрузке объектов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если снята, при загрузке/изменении объекта будут очищаться таб. части, по которым есть файлы для загрузки в рамках данного списка файлов. Такие таб. части должны быть после самого объекта в списке файлов.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="feccff18-3820-4f41-aac6-3d31029becbd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

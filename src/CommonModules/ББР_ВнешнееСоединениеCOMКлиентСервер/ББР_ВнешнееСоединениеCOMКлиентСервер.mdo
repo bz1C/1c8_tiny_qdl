@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbd67071-4843-4b63-9ae9-18f13c53a746">
+  <name>ББР_ВнешнееСоединениеCOMКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>ББР внешнее соединение (COM/OLE)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

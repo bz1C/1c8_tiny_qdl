@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="148de282-6d91-4bbf-9709-9c61ddc472d9">
+  <name>ББР_РаботаСТипами</name>
+  <synonym>
+    <key>ru</key>
+    <value>ББР работа с типами</value>
+  </synonym>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

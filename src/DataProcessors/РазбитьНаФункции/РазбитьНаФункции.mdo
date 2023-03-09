@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="859e6d58-54a3-4d8c-aa14-e9b0c8808d46">
+  <producedTypes>
+    <objectType typeId="3504c9aa-4a8c-4498-a7b2-e05531a61371" valueTypeId="a2357c43-d765-4880-aa9b-3dc9aa864c56"/>
+    <managerType typeId="45b04219-6f20-4085-90a7-46a9ca80f0e6" valueTypeId="5af5edd2-f475-4bb3-8019-6bb57fd107df"/>
+  </producedTypes>
+  <name>РазбитьНаФункции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разбить на функции</value>
+  </synonym>
+  <comment>v1.0.1.1 от 11.07.2019</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РазбитьНаФункции.Form.Форма</defaultForm>
+  <attributes uuid="6e87b36d-d48d-4c96-98e8-8c02333dbd5f">
+    <name>ПутьКИсходномуФайлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к исходному файлу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="30a0151a-6061-43f3-8960-d49d7f3abb6e">
+    <name>ПутьККаталогу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к каталогу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="be82b538-13ff-49de-9c4e-ac0ad2213826">
+    <name>ПутьКНовомуФайлуПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к новому файлу поставщика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67ca95cd-9ea5-4e9b-945c-f175b3452a31">
+    <name>ПутьКСтаромуФайлуОсновнойКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к старому файлу основной конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a3e5139-3b4a-4437-8dc5-05d1275db0d9">
+    <name>ПутьККаталогуСРезультатомОбъединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к каталогу с результатом объединения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a3eec961-8d40-4f86-8646-408bfe5f84c2">
+    <name>ПутьКФайлуСРезультатомСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу с результатом сборки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f7d9780e-eaa4-4cd1-a9de-d4fd59dae173">
+    <name>ПутьКСтаромуКаталогуПоставшика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к старому каталогу поставшика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7a3b3e76-da64-4ef5-a879-197d20c13cc8">
+    <name>ПутьКПрограммеСлияния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к программе слияния</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fbb00453-2d79-4d0f-b9c2-d534352ec534">
+    <name>ПутьКСтаромуКаталогуОсновнойКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к старому каталогу основной конфигурации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ffe5b4b-b0c0-4c8d-9998-a6dd5e969f98">
+    <name>ПутьКНовомуКаталогуПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к новому каталогу поставщика</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2b3c706e-528c-421c-9326-ab86b353ecce">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfae149b-d89b-4384-b2d1-5edecf5f926f">
+  <name>ББР_Коллекции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекции данных (на сервере)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

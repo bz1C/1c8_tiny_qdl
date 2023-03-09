@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3f8f145-0fc8-4ba1-a3c8-edc7351df768">
+  <name>ББР_МатематическиеКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Математические функции (клиент/сервер)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

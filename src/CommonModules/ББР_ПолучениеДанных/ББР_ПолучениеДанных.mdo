@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b48b1248-d53c-4bf6-8d11-bd91d7a39b92">
+  <name>ББР_ПолучениеДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение данных</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

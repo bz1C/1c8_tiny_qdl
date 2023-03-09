@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35e72fb8-76e7-472f-b35d-c759202790be">
+  <name>ББР_Десериализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Десериализация (сервер)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

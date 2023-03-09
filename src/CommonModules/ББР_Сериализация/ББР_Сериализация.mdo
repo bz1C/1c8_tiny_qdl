@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7223303-9473-4a41-9a8f-c3cdca8f8800">
+  <name>ББР_Сериализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сериализация (сервер)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

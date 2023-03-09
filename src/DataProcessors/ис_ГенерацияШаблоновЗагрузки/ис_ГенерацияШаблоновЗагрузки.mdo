@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70045744-4c6a-4016-81c5-5bc92dba5ec2">
+  <producedTypes>
+    <objectType typeId="3207c425-33cd-4428-876e-257fe6519ee0" valueTypeId="4bbd5835-cf86-46b1-9a2e-958e9495d47e"/>
+    <managerType typeId="8ad32f80-02ee-4169-8444-b7924bc392e0" valueTypeId="0e18d8be-e27f-4a4c-97e7-d2a0404c22ba"/>
+  </producedTypes>
+  <name>ис_ГенерацияШаблоновЗагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация шаблонов загрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ис_ГенерацияШаблоновЗагрузки.Form.Форма</defaultForm>
+  <attributes uuid="f7bec945-cee5-44a0-8e2b-4f77d12f1bc7">
+    <name>ИмяКаталога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя каталога</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="71810967-f6f3-452d-9889-77689d534b12">
+    <name>ВыгружатьРекурсивно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать рекурсивно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="658fe3c6-9fe3-415e-a036-e1a0ad77ec7d">
+    <name>ВыгружатьДвиженияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать движения документов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="df0d0a4e-e692-4118-91b5-a513a0b32a4d">
+    <name>ГлубинаРекурсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Глубина рекурсии</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3e7d137f-7d26-4641-a8ff-74f64aaf9e9c">
+    <name>НеВыгружатьСоставныеТипы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не выгружать составные типы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="15053c85-68f7-4c04-a263-eb510eacbd88">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ea57e913-c39f-4e6a-acd6-4c69c575d470">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+  </templates>
+  <templates uuid="c1a850f2-fb83-4bf2-bc3c-c683c23f5ead">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+  </templates>
+  <templates uuid="47b77f36-606e-44cf-85ef-043bba729d4c">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+  </templates>
+  <templates uuid="ab1fca11-3e36-4b1c-9041-5e7941f9edf6">
+    <name>Предопределенные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные</value>
+    </synonym>
+  </templates>
+  <templates uuid="b4418249-11d0-4fd9-ae2c-f2ffc1387066">
+    <name>Комментарии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарии</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

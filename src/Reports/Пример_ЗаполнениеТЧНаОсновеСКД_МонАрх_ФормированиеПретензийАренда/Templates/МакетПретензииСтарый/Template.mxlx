@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>14</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
+			<column>
+				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>6</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>1</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>5</i>
+				<c>
+					<f>8</f>
+					<parameter>НазваниеОрганизации</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>5</i>
+				<c>
+					<f>9</f>
+					<parameter>АдресОрганизации</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>5</i>
+				<c>
+					<f>10</f>
+					<parameter>ТелефоныОрганизации</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>5</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОГРН: [ОГРНОрганизации]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>5</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>5</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН/КПП: [ИННКППОрганизации]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>12</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исх. № ___________________________</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>12</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>от "____" ________________ 20____ г.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>13</f>
+					<parameter>ОрганизацияКому</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>14</f>
+					<parameter>НазваниеОрганизации</parameter>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Юридический адрес: [АдресОрганизации]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>16</f>
+					<parameter>ТелефоныОрганизации</parameter>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>17</f>
+					<parameter>АдресКому</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН [ИННОрганизации]  КПП [КППОрганизации]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>р/с: [РасчетныйСчет] в [БанкОрганизации],</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>к/с: [КСОрганизации]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<i>2</i>
+				<c>
+					<f>15</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БИК: [БИКОрганизации]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПРЕТЕНЗИЯ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>19</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>на погашение задолженности по [ДоговорДП]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        Информирую Вас, что по  [ДоговорДП]  (далее – «Договор») между [НазваниеОрганизации] (далее «Исполнитель») и [КонтрагентТП] (далее «Заказчик») образовалась задолженность, которая по состоянию на [ДатаЗадолженности] составляет - [СуммаИтогоПрописьюНДС], в том числе:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<formatIndex>21</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>23</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>24</f>
+					<parameter>ТекстПункта</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<formatIndex>25</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>22</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        В силу ст. 309 Гражданского кодекса Российской Федерации обязательства должны исполняться надлежащим образом в соответствии с условиями обязательства и требованиями закона, иных правовых актов, а при отсутствии таких условий и требований - в соответствии с обычаями делового оборота или иными обычно предъявляемыми требованиями.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<formatIndex>28</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>29</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>32</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        Согласно ст. 310 Гражданского кодекса Российской Федерации односторонний отказ от исполнения обязательства и одностороннее изменение его условий не допускаются, за исключением случаев, предусмотренных законом.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<formatIndex>28</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>29</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>32</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        В соответствии с п. 5.2 [ДоговорРП] оплата Заказчиком услуг Исполнителя производится ежемесячно авансовыми платежами не позднее 5 (пятого) числа текущего (оплачиваемого) месяца. </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>33</index>
+		<row>
+			<formatIndex>33</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>34</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>35</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>36</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        Однако в нарушение взятых на себя обязательств Заказчик не производил оплату до настоящего времени за услуги, предусмотренные Договором, за период [ПериодыНеоплат]. </v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<formatIndex>28</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>29</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>32</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        Исходя из вышеизложенного, прошу Вас в срок до [СрокДо] г. погасить образовавшуюся задолженность и оплатить неустойку в размере, предусмотренном п. 7.3 [ДоговорРП], в противном случае мы будем вынуждены обратиться за защитой своих интересов в Арбитражный суд г. Москвы.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>6</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
+		<row>
+			<formatIndex>38</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>38</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>16</f>
+					<parameter>РуководительДолжность</parameter>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>39</f>
+					<parameter>НазваниеОрганизации</parameter>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>40</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>41</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>41</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>/</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>42</f>
+					<parameter>РуководительФИО</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>16</f>
+					<parameter>ДатаЗадолженности</parameter>
+				</c>
+			</c>
+			<c>
+				<i>4</i>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>7</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>44</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уведомление</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>43</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>на погашение задолженности</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>23</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>48</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        Настоящим информируем Вас о наличии задолженности по  [ДоговорДП], которая по состоянию на [ДатаЗадолженности] составляет [СуммаИтогоПрописьюНДС] за [ПериодыНеоплат].</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>47</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>49</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>26</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        В целях сохранения деловых отношений прошу Вас  погасить имеющуюся задолженность в срок до [СрокДо]г.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>47</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>50</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        Обращаю Ваше внимание, что в случае непоступления денежных средств в указанный срок в соответствии с п.п.3.5 Договора Вам будет начислены пени в размере 0,1% от неоплаченной суммы за каждый день просрочки и дополнительно Вам предъявлены к оплате.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>51</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>        Надеемся на понимание и сохранение добрых взаимоотношений.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>1</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>1</beginRow>
+		<beginRowOffset>3</beginRowOffset>
+		<endRow>8</endRow>
+		<endRowOffset>6</endRowOffset>
+		<beginColumn>1</beginColumn>
+		<beginColumnOffset>6</beginColumnOffset>
+		<endColumn>5</endColumn>
+		<endColumnOffset>1266</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>0</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>48</defaultFormatIndex>
+	<height>52</height>
+	<vgRows>52</vgRows>
+	<merge>
+		<r>11</r>
+		<c>5</c>
+		<h>2</h>
+	</merge>
+	<merge>
+		<r>14</r>
+		<c>5</c>
+		<h>4</h>
+	</merge>
+	<merge>
+		<r>20</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>21</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>23</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>25</r>
+		<c>2</c>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>28</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>30</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>32</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>34</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>36</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>38</r>
+		<c>1</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>39</r>
+		<c>1</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>41</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>42</r>
+		<c>1</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>44</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>45</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>46</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>48</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>49</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>50</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>51</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>-1</r>
+		<c>2</c>
+		<w>1</w>
+	</merge>
+	<verticalUnmerge>
+		<r>30</r>
+		<c>2</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>41</r>
+		<c>2</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>48</r>
+		<c>2</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>49</r>
+		<c>2</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ДеталиЗадолженности</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>24</beginRow>
+			<endRow>25</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Подвал</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>37</beginRow>
+			<endRow>42</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ТелоПретензия1</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>20</beginRow>
+			<endRow>23</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ТелоПретензия2</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>27</beginRow>
+			<endRow>36</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ТелоУведомление</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>44</beginRow>
+			<endRow>51</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>1</beginRow>
+			<endRow>18</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="10" bold="true" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<format>
+		<width>25</width>
+	</format>
+	<format>
+		<width>43</width>
+	</format>
+	<format>
+		<width>209</width>
+	</format>
+	<format>
+		<width>210</width>
+	</format>
+	<format>
+		<width>19</width>
+	</format>
+	<format>
+		<width>485</width>
+	</format>
+	<format>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>0</font>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<width>485</width>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<width>485</width>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>1</font>
+	</format>
+	<format>
+		<font>2</font>
+		<bottomBorder>0</bottomBorder>
+		<width>485</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>3</font>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<width>485</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<width>419</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+	</format>
+	<format>
+		<font>3</font>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<height>39</height>
+	</format>
+	<format>
+		<font>2</font>
+		<horizontalAlignment>Justify</horizontalAlignment>
+	</format>
+	<format>
+		<font>2</font>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<height>30</height>
+	</format>
+	<format>
+		<font>2</font>
+		<width>43</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<width>419</width>
+	</format>
+	<format>
+		<height>33</height>
+	</format>
+	<format>
+		<font>2</font>
+		<height>33</height>
+		<width>43</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<height>33</height>
+		<width>419</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<height>33</height>
+		<width>19</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<height>33</height>
+		<width>485</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<height>36</height>
+	</format>
+	<format>
+		<font>2</font>
+		<height>36</height>
+		<width>43</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<height>36</height>
+		<width>419</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<height>36</height>
+		<width>19</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<height>36</height>
+		<width>485</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<height>165</height>
+	</format>
+	<format>
+		<font>5</font>
+		<width>419</width>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>3</font>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>209</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>210</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>19</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>485</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false">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
+XpF0AAAAAElFTkSuQmCC</picture>
+	</picture>
+</document>

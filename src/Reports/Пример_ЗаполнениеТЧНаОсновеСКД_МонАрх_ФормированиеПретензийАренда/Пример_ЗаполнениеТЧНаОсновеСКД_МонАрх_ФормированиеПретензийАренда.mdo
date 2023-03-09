@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c30b5db8-4be3-4a7e-8f4f-5ab2325338a4">
+  <producedTypes>
+    <objectType typeId="6ad830b1-f635-4498-8525-e55e936be207" valueTypeId="55ae0644-619f-4962-be80-3d33197500b9"/>
+    <managerType typeId="d8e361e0-94e6-4318-96ce-b429374c2138" valueTypeId="9e5ac3ea-3140-4305-8d34-b8ac0b564c7a"/>
+  </producedTypes>
+  <name>Пример_ЗаполнениеТЧНаОсновеСКД_МонАрх_ФормированиеПретензийАренда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование претензий (аренда)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Пример_ЗаполнениеТЧНаОсновеСКД_МонАрх_ФормированиеПретензийАренда.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Пример_ЗаполнениеТЧНаОсновеСКД_МонАрх_ФормированиеПретензийАренда.Template.МакетПолученияЗадолженностиБУ</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.Пример_ЗаполнениеТЧНаОсновеСКД_МонАрх_ФормированиеПретензийАренда.Form.ФормаНастроек</defaultSettingsForm>
+  <attributes uuid="8ff0e432-6df3-46be-8888-538670e149fd">
+    <name>ФормироватьПретензии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать претензии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="64c1a272-6051-444d-a3a0-5a3be6406263">
+    <name>ФормироватьУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формировать уведомления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="731c98f8-a06b-4ea7-aa78-bbfc341f93c2">
+    <name>ДатаФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата формирования</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a1d0b007-5a0f-4b9c-b886-654b6fa37181">
+    <name>СрокДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок оплаты долга</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1bc49f8c-fcf9-4c2d-a95e-31f114b81ef3">
+    <name>РежимФормирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим формирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="c03dac82-cb70-437d-913c-f52f7a4ffb51">
+    <producedTypes>
+      <objectType typeId="67ed6a7d-c9bf-4f9a-8ad5-e7b8f2c06485" valueTypeId="ce8f7a4b-551b-4d3c-858d-f3fbbcab62f9"/>
+      <rowType typeId="878e854f-3ee4-4e4e-b4d0-bb7d0ec621f4" valueTypeId="142f4e50-d69a-4111-ac5a-f919e6138fb8"/>
+    </producedTypes>
+    <name>Задолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задолженность</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="0a101c8a-0189-4c43-8055-76ba69677d0b">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="20ca95a4-5765-49ba-b80c-bdedb94e5730">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6e55afac-abb9-4321-a36b-1e88cfc5b9b0">
+      <name>Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="518fb8d0-2d34-4a7f-83b0-1e0a570d1b4b">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="26b52cb6-9382-4adf-8f53-2a2bef962794">
+      <name>СуммаЗадолженности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма задолженности</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8e9c4fd0-1669-49d0-8db8-adab0ed08e1a">
+      <name>ВалютаПараметрыПрописиНаРусском</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта параметры прописи на русском</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="0f4aeac9-4d27-4ab5-bc4c-8a95d0a7fa0b">
+    <producedTypes>
+      <objectType typeId="9639f1a1-5ce0-486e-8f69-7d8dfdccbdcf" valueTypeId="2bbe9de8-fc58-4f50-999e-775f49b1bb1b"/>
+      <rowType typeId="fae20345-cd67-4019-a5aa-469cc014ed03" valueTypeId="18ef7387-99f6-4f12-bbb7-a87c72ae3561"/>
+    </producedTypes>
+    <name>РасшифровкаЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка задолженности</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="94127a05-c6d7-48e3-8751-9fb8fc63a7e2">
+      <name>Договор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Договор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6918c661-b35f-48cf-a6e0-f4c8f73f638f">
+      <name>Услуга</name>
+      <synonym>
+        <key>ru</key>
+        <value>Услуга</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4b5d7c52-7904-4a92-a5ad-39e70d1b2d17">
+      <name>Период</name>
+      <synonym>
+        <key>ru</key>
+        <value>Период</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="859275e2-f9d7-4a17-ac70-bce845e71d79">
+      <name>СтавкаНДС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ставка НДС</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="edf9b950-6e5e-4bb3-91b4-08aed91f9175">
+      <name>СуммаЗадолженности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма задолженности</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b8bc5927-a36f-4d64-b373-d792fab031a9">
+      <name>СуммаНачисления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма начисления</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3fe7fd1c-2194-42a0-a3b0-f0c7b70e68d5">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="411601c5-4adf-4a72-ada2-32abff2f2878">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d4662778-7992-42b8-b4ac-64ffaf2221db">
+    <name>МакетПолученияЗадолженностиУУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет получения задолженности УУ</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="eadfe9e8-7b3e-476a-a504-5167e20c8f1c">
+    <name>МакетПолученияЗадолженностиБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет получения задолженности БУ</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="2ffe54ad-06cf-44a1-82ad-4418cc891b83">
+    <name>МакетПретензииСтарый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет претензии старый</value>
+    </synonym>
+  </templates>
+  <templates uuid="b3f4d19a-78d6-4b13-b421-5f19a8c7b17c">
+    <name>МакетПретензияУведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет претензия уведомление</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

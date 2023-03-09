@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94728619-3bd1-4120-be9d-81a4de9bfdf6">
+  <name>ББР_АДОКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с ADO (клиент/сервер)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

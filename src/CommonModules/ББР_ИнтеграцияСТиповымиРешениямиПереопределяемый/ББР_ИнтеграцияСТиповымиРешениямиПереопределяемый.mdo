@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="928be9f0-dc14-46d3-afbf-98cd6d2748a9">
+  <name>ББР_ИнтеграцияСТиповымиРешениямиПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>ББР интеграция с БСП (переопределяемый)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

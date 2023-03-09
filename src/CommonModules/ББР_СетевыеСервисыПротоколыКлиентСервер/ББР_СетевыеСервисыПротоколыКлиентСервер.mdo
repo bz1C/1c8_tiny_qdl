@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8d6d8af-6569-4e94-adf5-e5785fd7e0d9">
+  <name>ББР_СетевыеСервисыПротоколыКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функции для работы с сетевыми сервисами и протоколами (клиент/сервер)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

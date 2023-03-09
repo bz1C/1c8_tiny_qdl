@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39ca7a7d-e04f-4d04-a3ac-9d3f13843675">
+  <name>ББР_ТабличныеДокументыКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Табличные документы клиент/сервер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
