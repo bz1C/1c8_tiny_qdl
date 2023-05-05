@@ -16,7 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>(С) 2017-2023 Чернуль Александр</vendor>
-  <version>0.0.2.0</version>
+  <version>0.0.3.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -29,13 +29,13 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
-    <value>(С) 2017-2020 Чернуль Александр</value>
+    <value>(С) 2017-2023 Чернуль Александр</value>
   </copyright>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.12</compatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
   <languages uuid="56eff2fb-eacc-4768-a764-c5f4794e601a">
     <name>Русский</name>
     <synonym>
