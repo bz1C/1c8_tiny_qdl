@@ -16,7 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>(С) 2017-2023 Чернуль Александр</vendor>
-  <version>0.0.4.0</version>
+  <version>0.0.5.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
