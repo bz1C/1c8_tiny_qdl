@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cac51782-d2e9-47f3-ab8f-769ec35793ce">
+  <name>ББР_РаботаСWordКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с Microsoft Word</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
