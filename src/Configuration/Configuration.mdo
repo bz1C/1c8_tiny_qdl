@@ -3,7 +3,7 @@
   <name>ББР</name>
   <synonym>
     <key>ru</key>
-    <value>Библиотека &quot;быстрой&quot; разработки (2024-02-01)</value>
+    <value>Библиотека &quot;быстрой&quot; разработки (2024-05-02)</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="28d885d7-fd7f-4f2a-9b09-c2b17db434eb"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e2843655-d58c-4ab9-9aa8-d4374a99b2bd"/>
@@ -16,7 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>(С) 2017-2024 Чернуль Александр</vendor>
-  <version>0.0.6.0</version>
+  <version>0.0.6.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
