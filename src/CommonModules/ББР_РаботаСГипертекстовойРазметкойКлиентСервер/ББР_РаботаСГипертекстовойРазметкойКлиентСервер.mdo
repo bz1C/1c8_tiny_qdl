@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04d28489-3121-473c-81a1-3e41b86bf771">
+  <name>ББР_РаботаСГипертекстовойРазметкойКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с гипертекстовой разметкой (HTML, XML)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
